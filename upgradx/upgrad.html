@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upgrad X</title>
+    <link rel="stylesheet" href="upgrad.css">
+</head>
+<body>
+    <div class="container">
+        <div class="ribbon">
+            <img src="1.png" alt="ribbon">
+        </div>
+        <div class="certificate">
+            <div class="logo">
+                <img  src="upgard logo.png" alt="logo">
+            </div>
+            <div class="contentBox">
+                <h1>CERTIFICATE OF INTERNSHIP</h1>
+                <p>This internship program certificate is proudly <br>awarded to </p>
+            <h1 id="result"></h1>
+            <script>
+                let candidate = localStorage.getItem("user");
+                document.getElementById("result").innerHTML = candidate;
+            </script>
+            <div class="bord"></div>
+            <p>has completed internship at [PLACE] from 1-Jan-2023 to 31-May-2023<br><br> We found him/her sincere, hardworking, dedicated and result oriented<br>She/He worked well a s part of the team during his/her internship tenure <br>We take this oppotunity to thank him/her and wish him/her all the very best for his/her future.</p>
+            <div class="bottom">
+                <div class="ceo">John walker<br><b>CEO</b></div>
+                <div class="comp">
+                    <img src="completed-stamp-2.png" alt="png">
+                </div>
+                <div class="manager">John walker<br><b>Program Manager</b></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

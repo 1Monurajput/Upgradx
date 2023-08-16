@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,200;0,9..40,300;1,9..40,200;1,9..40,300&family=EB+Garamond:wght@400;500&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,200;0,9..40,300;1,9..40,200;1,9..40,300&family=Dancing+Script:wght@400;500;600;700&family=EB+Garamond:wght@400;500&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'DM Sans', sans-serif;
+}
+.input{
+    height: 650px;
+    display: grid;
+    place-content: center;
+}
+.table h3{
+    padding-bottom: 20px;
+    font-size: 28px;
+
+}
+.table{
+    height: 180px;
+    background-image: linear-gradient(to bottom right, rgba(68, 124, 228),rgba(39, 220, 220));
+    padding: 30px;
+    border-radius: 5px;
+    border-style: outset;
+    text-align: center;
+    box-shadow: 10px 10px 5px rgb(168, 168, 168);
+    position: relative;
+    bottom: 120%;
+}
+.table input{
+    height: 40px;
+    width: 250px;
+    border-radius: 7px;
+    padding: 10px;
+    font-size: 18px;
+}
+.table button{
+    height: 45px;
+    padding: 10px;
+    width: 100px;
+    border-radius: 7px;
+    margin-left: 20px;
+    background-color: yellow;
+    font-size: 18px;
+    transition: ease-in-out 0.3s;
+}
+button:hover{
+    background-color: rgb(60, 212, 60);
+    transition: ease-in-out 0.3s;
+}
+.front-logo img{
+    position: relative;
+    left: 42%;
+    top: 40px;
+    width: 200px;
+}
+.ribbon{
+    position: absolute;
+    left: 75%;
+    margin-top: 20px;
+}
+.container{
+    height: 700px;
+    display: grid;
+    place-content: center;
+    background-image: linear-gradient(to bottom right, rgba(68, 124, 228),rgba(39, 220, 220));
+}
+.certificate{
+    height: 600px;
+    width: 900px;
+    background-color: white;
+    text-align: center;
+    border: 2px solid black;
+}
+.logo{
+    height: 20%;
+    position: relative;
+    bottom: 20px;
+}
+.contentBox{
+    height: 80%;
+    padding:10px;
+}
+h1{
+    padding-top: 10px;
+    font-size: 40px;
+}
+p{
+    padding: 20px;
+    font-size: 18px;
+}
+.bord{
+    border-bottom: 1px solid black;
+    margin: 0px 150px;
+}
+img{
+    width: 170px;}
+.bottom{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px  100px;
+}
+#result{
+    font-family: 'Dancing Script', cursive;
+    background: linear-gradient(to bottom right,rgba(68, 124, 228,1.5),rgba(39, 220, 220));
+            -webkit-text-fill-color: transparent;
+            -webkit-background-clip: text;
+}
+.comp img{
+    width: 110px;
+    padding-bottom: 20px;
+}
+#result{
+    text-transform:uppercase;
+}
+#up{
+    background-image: linear-gradient(to bottom right, rgb(213, 232, 248),rgb(255, 255, 255));
+}

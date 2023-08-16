@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upgradx</title>
+    <link rel="stylesheet" href="upgrad.css">
+</head>
+<body id="up">
+    <div class="front-logo">
+        <img  src="upgard logo.png" alt="logo">
+    </div>
+    <div class="input">
+        <div class="table">
+            <h3>Internship Certificate</h3>
+            <input type="text" id="nameInput" placeholder="Enter Name">
+            <button onclick="fun()" >Get » </button>
+        </div>
+    </div>
+    <script>
+        function fun(){
+        let candidate = document.getElementById("nameInput").value;
+        let count = candidate.length;
+        if(count >= 4){
+            localStorage.setItem("user",candidate);
+            window.open("http://127.0.0.1:5500/upgradx/upgrad.html");
+        }
+        else{
+            alert("Enter Name...!!!!");
+        }
+        
+}
+    </script>
+</body>
+</html>
